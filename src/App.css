@@ -60,12 +60,10 @@ span{
     padding:5px;
     background-color: white;
   }
-  .length-wrapper{
-    flex-direction:column;
-  }
   .app-container{
     background-color: rgb(226, 226, 226);
     padding: 0;
+    margin-top: 50px;
     border-radius: 10px;
   }
   .app-container>h1{
@@ -73,6 +71,7 @@ span{
     margin: 10px 0;
   }
   .length-wrapper{
+    flex-direction:column;
     gap: 0;
     align-items: center;
   }
