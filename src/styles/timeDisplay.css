@@ -1,0 +1,22 @@
+.display-container{
+    padding: 20px 30px;
+    border: 5px solid rgb(51, 133, 153);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.display-container>h2{
+    font-size: 60px;
+}
+
+@media screen and (max-width:576px) {
+    .display-container{
+        border: none;
+        border-radius: 0;
+    }
+    .display-container>h1{
+        font-size: 30px;
+        color: rgb(119, 0, 255);
+    }
+}

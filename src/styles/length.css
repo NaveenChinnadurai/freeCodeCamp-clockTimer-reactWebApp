@@ -1,0 +1,31 @@
+.length-container{
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.length-container>h2{
+    font-size:30px;
+}
+.updater-container{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+.updater-container>span{
+    font-size: 23px;
+}
+.updater-container>h2{
+    margin: 0 5px;
+    width: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media screen and (max-width:576px) {
+    .length-container{
+        padding: 0;
+        margin: 10px 0;
+    }
+}
