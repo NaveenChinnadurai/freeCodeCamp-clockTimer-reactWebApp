@@ -58,13 +58,13 @@ span{
 
 @media screen and (max-width:576px) {
   .app-wrapper{
-    height: 100vh;
+    height: 90vh;
     padding:5px;
     min-width: none !important;
   }
   .app-container{
     padding: 0;
-    height: 100%;
+    height: 90%;
     border-radius: 10px;
   }
   .app-container>h1{
