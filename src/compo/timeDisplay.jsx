@@ -8,8 +8,8 @@ class TimeDisplay extends Component {
     render() {
         return (
             <div className='display-container'>
-                <h1>{this.props.text} Length</h1>
-                <h2>{this.props.timer}:00</h2>
+                <h1>{this.props.childState.text} Length</h1>
+                <h2>{this.props.timeFormat(this.props.childState.currVal)}</h2>
             </div>
         )
     }

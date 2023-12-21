@@ -2,18 +2,20 @@
   font-family: 'Poppins', sans-serif;
   height: 100vh;
   display: flex;
-  min-width: 300px;
-  background-color: rgb(24, 75, 122);
+  min-width: 260px;
+  background-color: rgb(197, 184, 255);
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 30px;
 }
 .app-container{
+  background-color: rgb(86, 68, 167);
+  box-shadow: rgb(183, 119, 255) 5px 5px 20px 1px;
   padding: 30px;
   height: fit-content;
   width: fit-content;
   border-radius: 30px;
-  background-color: rgb(152, 203, 252);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,19 +58,19 @@ span{
 
 @media screen and (max-width:576px) {
   .app-wrapper{
-    height: fit-content;
+    height: 100vh;
     padding:5px;
-    background-color: white;
+    min-width: none !important;
   }
   .app-container{
-    background-color: rgb(226, 226, 226);
     padding: 0;
-    margin-top: 50px;
+    height: 100%;
     border-radius: 10px;
   }
   .app-container>h1{
     font-size: 35px;
     margin: 10px 0;
+    letter-spacing: 3px;
   }
   .length-wrapper{
     flex-direction:column;
